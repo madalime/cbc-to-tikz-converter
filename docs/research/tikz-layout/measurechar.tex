@@ -1,0 +1,11 @@
+\documentclass[10pt]{article}
+\newsavebox\bx
+\begin{document}
+\sbox\bx{\ttfamily M}\typeout{MEASURE ttM=\the\wd\bx}
+\sbox\bx{\ttfamily i}\typeout{MEASURE tti=\the\wd\bx}
+\sbox\bx{\ttfamily MMMMMMMMMM}\typeout{MEASURE tt10=\the\wd\bx}
+\sbox\bx{\ttfamily\small MMMMMMMMMM}\typeout{MEASURE ttsmall10=\the\wd\bx}
+\sbox\bx{\ttfamily\footnotesize MMMMMMMMMM}\typeout{MEASURE ttfoot10=\the\wd\bx}
+\sbox\bx{\ttfamily X}\typeout{MEASURE ttheight=\the\ht\bx\space depth=\the\dp\bx}
+\typeout{MEASURE baselineskip=\the\baselineskip}
+\end{document}
