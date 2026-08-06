@@ -1,0 +1,21 @@
+# Sample WebCorC exports — local working data, not tracked for now
+samples/
+
+# JetBrains
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
